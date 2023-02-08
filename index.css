@@ -316,7 +316,7 @@
         text-align: center;
 
     }
-/* /* 
+     /* 
     .code{
         padding-left: 17rem;
     } */
@@ -329,7 +329,7 @@
     }
     .box_1{
         margin-left:9rem;
-    } */ */
+    } */ 
 }
 
 @media(max-width: 1320px){
@@ -457,7 +457,7 @@
         text-align: center;
     }
 
-    /* /* .code{
+        /* .code{
         padding-left: 30rem;
     } */
 
