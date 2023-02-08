@@ -270,10 +270,6 @@
     height: 30px;
 }
 
-.abbtt{
-    scroll-behavior: smooth;
-}
-
 @media(min-width: 999px){
     .into_l1{
         margin-left: 200px;
@@ -317,21 +313,23 @@
     }
     .footer{
         width: 75rem;
-    }
+        text-align: center;
 
+    }
+/* /* 
     .code{
         padding-left: 17rem;
-    }
+    } */
 
     .f_part1{
         margin-left: 31rem;
     }
-    .copy{
+    /* .copy{
         padding-left: 28rem;
     }
     .box_1{
         margin-left:9rem;
-    }
+    } */ */
 }
 
 @media(max-width: 1320px){
@@ -381,16 +379,17 @@
 
     .footer{
         width: 75rem;
+        text-align: center;
     }
 
-    .code{
+    /* .code{
         padding-left: 17rem;
-    }
+    } */
 
     .f_part1{
         margin-left: 31rem;
     }
-    .made{
+    /* .made{
         padding-left:30rem;
     }
     .copy{
@@ -398,7 +397,7 @@
     }
     .box_1{
         margin-left:9rem;
-    }
+    } */
 }
 
 @media(min-width: 1420px){
@@ -408,13 +407,15 @@
     }
 
     .box_1{
-        margin-left:21rem;
+        margin-left:17rem;
     }
 
     .port{
-        padding-right: 82%;
+        padding-right: 78%;
     }
-
+    .lan_p1 {
+        margin-left: 19.5rem;
+    }
     .hr1{
         width: 100%;
     }
@@ -442,37 +443,34 @@
         width: 100%;
     }
 
-    .lan_p1{
-        margin-left: 26.5rem;
-    }
 
     .pop{
         margin-left: 13rem;
     }
 
     .form{
-        margin-left: 30rem;
+        margin-left: 26rem;
     }
 
     .footer{
         width: 100%;
+        text-align: center;
     }
 
-    .code{
-        padding-left: 39rem;
-    }
+    /* /* .code{
+        padding-left: 30rem;
+    } */
 
     .f_part1{
-        margin-left: 52rem;
-    }
+        margin-left: 43rem;    }
 
-    .made{
-        padding-left:50rem;
+    /* .made{
+        padding-left:42rem;
     }
 
     .copy{
-        padding-left: 48rem;
-    }
+        padding-left: 39rem;
+    } */ 
 }
 @media(min-width: 768px) and (max-width: 1024px) {
     .box_1{
@@ -901,6 +899,8 @@
     background: #3586ff;
     height: 16rem;
     margin-top:8rem;
+    text-align: center;
+
 }
 .f_part1{
     width: 20rem;
