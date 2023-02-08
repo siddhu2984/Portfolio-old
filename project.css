@@ -1,0 +1,209 @@
+.headerr{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    height:3.0rem;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+    background:white;
+    border-bottom:4px solid linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+}
+.h_r{
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+}
+
+.porttt{
+    padding-right: 82%;
+    font-family: 'Unbounded', cursive;
+    font-size: 13px;
+    padding-left: 0.5rem;
+}
+
+.port_r{
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 30%;
+    /* padding-right: 100%; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 1rem;
+}
+
+.port_r0{
+    background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+    color: white;
+    padding:8px;
+}
+.port_r1{
+    color:black;
+    height: 10px;
+    width: 60px;
+    padding:8px;
+}
+
+.port_r2{
+    color:black;
+    height: 10px;
+    width: 60px;
+    width: 60px;
+     padding:8px;
+}
+
+.clr{
+    color: white;
+}
+
+.clr1{
+    color: black;
+}
+.port_r0:hover{
+    box-shadow: 5px 5px 10px 0 #5d62f4, 5px 5px 15px 0 #008dff;
+}
+.port_r1:hover{
+    background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+    box-shadow: 5px 5px 10px 0 #5d62f4, 5px 5px 15px 0 #008dff;
+}
+.headerimgg{
+    margin-top: 0.2rem;
+    padding-left: 0.5rem;
+    width:30px;
+    height:30px;
+}
+.nav_border{
+    width: 100%;
+}
+
+@media (max-width: 1274px){
+
+    .port{
+        padding-right:65%;
+    }
+}
+@media (max-width: 1000px){
+
+    .port{
+        padding-right:55%;
+    }
+}
+
+
+.hr1{
+    background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+    padding-top: 3rem;
+    height:8px;
+    border-width:0;
+    margin: 0px;
+}
+
+.hr12{
+    background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+    height:8px;
+    border-width:0;
+    margin-top: 520px;
+}
+
+
+.head_rr{
+    border-radius: 20%;
+    /* text-align: center; */
+    padding:0.8rem;
+    /* padding-right: 2rem;; */
+    width:20% ;
+    margin: 0.2rem;
+    width: 3rem;
+    height: 1.5rem;
+    padding:8px
+}
+
+
+/*box*/
+
+.box{
+    border:1px solid black;
+    height:19rem;
+    margin: 4rem;
+    width: 16rem;
+    float: left;
+    border-radius: 2%;
+    box-shadow: inset 0 -4em 5em rgba(0, 0, 0, 0.1), 0 0 0 5px rgb(255, 255, 255),
+    0.6em 0.6em 3em rgba(0, 0, 0, 0.6);
+}
+
+.box:hover{
+    box-shadow: inset 0 -4em 6em rgba(0, 0, 0, 0.4), 0 0 0 7px rgb(255, 255, 255),
+    0.8em 0.8em 6em rgba(0, 0, 0, 0.8);
+}
+
+.box1{
+    margin-left: 25rem;
+}
+
+.box_holder{
+    float: left;
+}
+
+.imgg{
+    width: 200px;
+    padding-left: 28px;
+    padding-top: 1rem;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgg1{
+    width: 256px;
+    padding-top: 3rem;
+}
+/* .onText{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+} */
+
+.onText{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 3.5rem;
+}
+
+.onText1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 2.6rem;
+}
+
+.pp{
+    margin-top: 0px;
+}
+
+.imgg2{
+    width: 180px;
+    padding-left: 2.4rem;
+}
+
+.onText2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+    padding-left: 3.3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
