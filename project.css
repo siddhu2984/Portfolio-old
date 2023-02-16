@@ -207,3 +207,11 @@ a{
     text-decoration: none;
     color: black;
 }
+
+@media(min-width:1420px){
+    .box1{
+        margin-left:19rem;
+    }
+}
+
+
