@@ -346,7 +346,6 @@
     .abt_img {
     height: 100%;
     width: 25rem;
-
     }
 
     .abt1_alt {
@@ -359,6 +358,7 @@
     .About{
         margin-left: 7rem;
     }
+    
     .brick{
         width: 1204px;
     }
@@ -407,14 +407,14 @@
     }
 
     .box_1{
-        margin-left:23rem;
+        margin-left: 17rem;
     }
 
     .port{
         padding-right: 78%;
     }
     .lan_p1 {
-        margin-left: 23.5rem;
+        margin-left: 19.5rem;
     }
     .hr1{
         width: 100%;
